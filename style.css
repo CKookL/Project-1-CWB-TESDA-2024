@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #232830;
+}
+
+nav{
+    background-color: #232830;
+    padding: 0 10%;
+    box-shadow: none;
+}
+
+nav ul a:hover{
+    background-color: #313642;
+}
+
+h3{
+    font-style: italic;
+    margin: 10px;
+}
+
+.card{
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    min-height: 380px;
+    padding-bottom: 50px;
+    border-radius: 22px;
+}
+
+.card .card-title{
+    font-size: 15px;
+    font-weight: bold;
+}
+.card .card-content{
+    padding: 15px 20px 20px 20px;
+}
+
+.card img{  
+    display: block;
+    height: 120px;
+    max-height: 120px;
+    max-width: 100%;
+    margin: auto;
+}
+.card .card-content .card-title{
+    line-height: 25px;
+}
+.card .card-content p{
+    font-size: 13px;
+}
+.bottom{
+    position: absolute;
+    margin-bottom: 20px;
+    bottom: 0;
+    display: flex;
+    gap: 10px;
+}
+a{
+    color: #232830;
+}
+a:hover{
+    color: #496da5;
+}
+.page ul{
+    margin: 50px 0 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.page ul li a{
+    font-weight: bold;
+    padding: 8px;
+    color: #909090;
+}
+
+.page ul li a:hover{
+    color: #FF7575;
+    border-top: #FF7575 solid 2.5px;
+}
+
+.Categories ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Categories ul li a{
+    font-style: italic;
+    color: #909090;
+}
+
+.Categories ul li a:hover{
+    font-style: italic;
+    color: #FF7575;
+}
+
+
+.Categories{
+    width: min-content;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    margin: 40px auto;
+}
+
+.Categories::after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 75px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+.Categories::after{
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0 ), #232830);
+}
+.divider{
+    height: 3px;
+}
